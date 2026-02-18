@@ -1,0 +1,15 @@
+{
+  "id": "manhwa18",
+  "name": "Manhwa 18",
+  "version": "1.0.0",
+  "type": "manhwa",
+  "base_url": "https://manhwa18.com",
+  "nsfw": true,
+  "endpoints": {
+    "popular": "/manhwa-list?orderby=views",
+    "latest":  "/manhwa-list?orderby=latest",
+    "search":  "/search?q={query}",
+    "chapters":"/manhwa/{id}",
+    "pages":   "/manhwa/{id}/{chapter_id}"
+  }
+}
