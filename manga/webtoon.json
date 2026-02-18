@@ -1,0 +1,15 @@
+{
+  "id": "webtoon",
+  "name": "Webtoon",
+  "version": "1.0.0",
+  "type": "manga",
+  "base_url": "https://www.webtoons.com",
+  "nsfw": false,
+  "endpoints": {
+    "popular": "/en/top",
+    "latest":  "/en/new",
+    "search":  "/en/search?keyword={query}",
+    "chapters":"/en/{genre}/{title}/list?title_no={id}",
+    "pages":   "/en/{genre}/{title}/{episode}/viewer?title_no={id}&episode_no={chapter_id}"
+  }
+}
