@@ -1,5 +1,7 @@
 {
   "extensions": [
+    
+  
     {
       "id": "mangadex",
       "name": "MangaDex",
@@ -21,6 +23,111 @@
       "nsfw": false
     },
     {
+      "id": "comick",
+      "name": "Comick",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://comick.io/favicon.ico",
+      "file": "manga/comick.json",
+      "nsfw": false
+    },
+    {
+      "id": "mangaplus",
+      "name": "MANGA Plus",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://mangaplus.shueisha.co.jp/favicon.ico",
+      "file": "manga/mangaplus.json",
+      "nsfw": false
+    },
+    {
+      "id": "webtoon",
+      "name": "Webtoon",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://www.webtoons.com/favicon.ico",
+      "file": "manga/webtoon.json",
+      "nsfw": false
+    },
+    {
+      "id": "flamescans",
+      "name": "Flame Scans",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://flamecomics.xyz/favicon.ico",
+      "file": "manga/flamescans.json",
+      "nsfw": false
+    },
+    {
+      "id": "reaperscans",
+      "name": "Reaper Scans",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://reaperscans.com/favicon.ico",
+      "file": "manga/reaperscans.json",
+      "nsfw": false
+    },
+    {
+      "id": "luminousscans",
+      "name": "Luminous Scans",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://luminousscans.com/favicon.ico",
+      "file": "manga/luminousscans.json",
+      "nsfw": false
+    },
+
+
+    {
+      "id": "manhwafreak",
+      "name": "Manhwa Freak",
+      "version": "1.0.0",
+      "type": "manhwa",
+      "language": "en",
+      "icon": "https://manhwafreak.com/favicon.ico",
+      "file": "manga/manhwafreak.json",
+      "nsfw": false
+    },
+    {
+      "id": "toonily",
+      "name": "Toonily",
+      "version": "1.0.0",
+      "type": "manhwa",
+      "language": "en",
+      "icon": "https://toonily.com/favicon.ico",
+      "file": "manga/toonily.json",
+      "nsfw": false
+    },
+
+  
+    {
+      "id": "manhuaplus",
+      "name": "Manhua Plus",
+      "version": "1.0.0",
+      "type": "manhua",
+      "language": "en",
+      "icon": "https://manhuaplus.org/favicon.ico",
+      "file": "manga/manhuaplus.json",
+      "nsfw": false
+    },
+    {
+      "id": "manhuaus",
+      "name": "Manhua US",
+      "version": "1.0.0",
+      "type": "manhua",
+      "language": "en",
+      "icon": "https://manhuaus.com/favicon.ico",
+      "file": "manga/manhuaus.json",
+      "nsfw": false
+    },
+
+    {
       "id": "gogoanime",
       "name": "GogoAnime",
       "version": "1.0.0",
@@ -29,6 +136,90 @@
       "icon": "https://gogoanime.tel/favicon.ico",
       "file": "anime/gogoanime.json",
       "nsfw": false
+    },
+    {
+      "id": "zoro",
+      "name": "Zoro / Aniwatch",
+      "version": "1.0.0",
+      "type": "anime",
+      "language": "en",
+      "icon": "https://aniwatch.to/favicon.ico",
+      "file": "anime/zoro.json",
+      "nsfw": false
+    },
+    {
+      "id": "animepahe",
+      "name": "AnimePahe",
+      "version": "1.0.0",
+      "type": "anime",
+      "language": "en",
+      "icon": "https://animepahe.ru/favicon.ico",
+      "file": "anime/animepahe.json",
+      "nsfw": false
+    },
+    {
+      "id": "nineanime",
+      "name": "9anime",
+      "version": "1.0.0",
+      "type": "anime",
+      "language": "en",
+      "icon": "https://9anime.to/favicon.ico",
+      "file": "anime/nineanime.json",
+      "nsfw": false
+    },
+
+
+    {
+      "id": "novelupdates",
+      "name": "Novel Updates",
+      "version": "1.0.0",
+      "type": "novel",
+      "language": "en",
+      "icon": "https://novelupdates.com/favicon.ico",
+      "file": "novel/novelupdates.json",
+      "nsfw": false
+    },
+    {
+      "id": "royalroad",
+      "name": "Royal Road",
+      "version": "1.0.0",
+      "type": "novel",
+      "language": "en",
+      "icon": "https://royalroad.com/favicon.ico",
+      "file": "novel/royalroad.json",
+      "nsfw": false
+    },
+    {
+      "id": "lightnovelworld",
+      "name": "Light Novel World",
+      "version": "1.0.0",
+      "type": "novel",
+      "language": "en",
+      "icon": "https://lightnovelworld.co/favicon.ico",
+      "file": "novel/lightnovelworld.json",
+      "nsfw": false
+    },
+
+ 
+    {
+      "id": "manhwa18",
+      "name": "Manhwa 18",
+      "version": "1.0.0",
+      "type": "manhwa",
+      "language": "en",
+      "icon": "https://manhwa18.com/favicon.ico",
+      "file": "nsfw/manhwa18.json",
+      "nsfw": true
+    },
+    {
+      "id": "hentaihere",
+      "name": "HentaiHere",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://hentaihere.com/favicon.ico",
+      "file": "nsfw/hentaihere.json",
+      "nsfw": true
     }
   ]
 }
