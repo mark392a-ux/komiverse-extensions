@@ -1,0 +1,34 @@
+{
+  "extensions": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://mangadex.org/favicon.ico",
+      "file": "manga/mangadex.json",
+      "nsfw": false
+    },
+    {
+      "id": "asura",
+      "name": "Asura Scans",
+      "version": "1.0.0",
+      "type": "manga",
+      "language": "en",
+      "icon": "https://asuracomic.net/favicon.ico",
+      "file": "manga/asura.json",
+      "nsfw": false
+    },
+    {
+      "id": "gogoanime",
+      "name": "GogoAnime",
+      "version": "1.0.0",
+      "type": "anime",
+      "language": "en",
+      "icon": "https://gogoanime.tel/favicon.ico",
+      "file": "anime/gogoanime.json",
+      "nsfw": false
+    }
+  ]
+}
