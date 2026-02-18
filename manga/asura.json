@@ -1,0 +1,14 @@
+{
+  "id": "asura",
+  "name": "Asura Scans",
+  "version": "1.0.0",
+  "type": "manga",
+  "base_url": "https://api.consumet.org/manga/asurascans",
+  "nsfw": false,
+  "endpoints": {
+    "popular": "/",
+    "search":  "/{query}",
+    "chapters":"/info/{id}",
+    "pages":   "/read/{chapter_id}"
+  }
+}
