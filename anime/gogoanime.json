@@ -1,0 +1,17 @@
+{
+  "id": "gogoanime",
+  "name": "GogoAnime",
+  "version": "1.0.0",
+  "type": "anime",
+  "language": "en",
+  "base_url": "https://api.consumet.org/anime/gogoanime",
+  "nsfw": false,
+
+  "endpoints": {
+    "popular":  "/top-airing",
+    "latest":   "/recent-episodes",
+    "search":   "/{query}",
+    "episodes": "/info/{id}",
+    "stream":   "/watch/{episode_id}"
+  }
+}
