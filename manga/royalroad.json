@@ -1,0 +1,15 @@
+{
+  "id": "royalroad",
+  "name": "Royal Road",
+  "version": "1.0.0",
+  "type": "novel",
+  "base_url": "https://www.royalroad.com",
+  "nsfw": false,
+  "endpoints": {
+    "popular": "/fictions/best-rated",
+    "latest":  "/fictions/latest-updates",
+    "search":  "/fictions/search?title={query}",
+    "chapters":"/fiction/{id}",
+    "read":    "/fiction/{id}/{chapter_id}"
+  }
+}
