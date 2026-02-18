@@ -1,0 +1,15 @@
+{
+  "id": "comick",
+  "name": "Comick",
+  "version": "1.0.0",
+  "type": "manga",
+  "base_url": "https://api.comick.io",
+  "nsfw": false,
+  "endpoints": {
+    "popular": "/manga?order=user_follow_count&limit=20",
+    "latest":  "/manga?order=uploaded&limit=20",
+    "search":  "/manga?q={query}&limit=20",
+    "chapters":"/comic/{id}/chapters",
+    "pages":   "/chapter/{chapter_id}"
+  }
+}
