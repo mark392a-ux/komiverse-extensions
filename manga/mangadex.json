@@ -1,0 +1,17 @@
+{
+  "id": "mangadex",
+  "name": "MangaDex",
+  "version": "1.0.0",
+  "type": "manga",
+  "language": "en",
+  "base_url": "https://api.mangadex.org",
+  "nsfw": false,
+
+  "endpoints": {
+    "popular":  "/manga?order[rating]=desc&limit=20&includes[]=cover_art",
+    "latest":   "/manga?order[updatedAt]=desc&limit=20&includes[]=cover_art",
+    "search":   "/manga?title={query}&limit=20&includes[]=cover_art",
+    "chapters": "/manga/{id}/feed?order[chapter]=asc&translatedLanguage[]=en",
+    "pages":    "/at-home/server/{chapter_id}"
+  }
+}
